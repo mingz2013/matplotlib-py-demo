@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-def get_list(fname, skiprows=7):
+def get_list(fname, skiprows=2):
     arr = np.loadtxt(fname, skiprows=skiprows, dtype=np.int)
     print(arr.itemsize)
     return arr
@@ -44,7 +44,7 @@ def test_main():
 def main():
     # draw(get_list("insert_1yi_lines.log"))
 
-    draw(get_list("insert_1yi_sort.log", skiprows=14))
+    draw(get_list("danbiao_lines.log", skiprows=2))
     pass
 
 

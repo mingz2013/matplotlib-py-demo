@@ -42,7 +42,7 @@ def test_main():
 
 
 def main():
-    draw(get_list("1_2.log"))
+    draw(get_list("200_lines.log"))
 
     # draw(get_list("insert_1yi_sort.log", skiprows=14))
     pass
